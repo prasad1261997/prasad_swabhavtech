@@ -7,7 +7,10 @@ public class SplitTest {
 		String str=new String("www.SwabhavTechlabs.com?developer=prasad");
 		String str1[]=str.split("\\.");
 		//str1=str.split(".");
-		System.out.print(str1[1]);
+		System.out.println(str1[1]);
+		str1=str.split("\\=");
+		
+		System.out.println(str1[1]);
 	}
 	
 
